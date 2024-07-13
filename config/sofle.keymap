@@ -25,6 +25,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        test {
+            bindings = <&kp K_CALC>;
+            key-positions = <0 12>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
