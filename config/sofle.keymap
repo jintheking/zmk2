@@ -70,11 +70,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp DEL     &kp N7        &kp N8           &kp N9        &kp MINUS       &kp SLASH                           &kp F6     &kp F7    &kp F8     &kp F9     &kp F10   &kp F11
-&kp ESCAPE  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &kp PLUS        &kp ASTERISK                        &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &kp F12
-&kp TAB     &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp COMMA       &kp BACKSPACE                       &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR   &kp RPAR  &kp PIPE
-&kp LCTRL   &kp N0        &kp KP_NUMBER_0  &kp PLUS      &kp LEFT        &kp RIGHT      &trans       &trans  &kp LBKT   &kp RBKT  &kp SEMI   &kp COLON  &kp BSLH  &trans
-                          &kp LEFT_ALT     &kp LEFT_WIN  &kp LEFT_SHIFT  &tog 1         &kp ENTER    &trans  &trans     &trans    &trans     &trans
+&kp DEL     &kp N7        &kp N8           &kp N9        &kp MINUS       &kp SLASH                              &kp F6     &kp F7       &kp F8     &kp F9     &kp F10   &kp F11
+&kp ESCAPE  &kp NUMBER_4  &kp N5           &kp NUMBER_6  &kp PLUS        &kp ASTERISK                           &kp N6     &kp N7       &kp N8     &kp N9     &kp N0    &kp F12
+&kp TAB     &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3  &kp COMMA       &kp BACKSPACE                          &kp CARET  &kp AMPS     &kp ASTRK  &kp LPAR   &kp RPAR  &kp PIPE
+&kp LCTRL   &kp N0        &kp KP_NUMBER_0  &kp N0        &kp LEFT        &kp RIGHT      &trans       &trans     &kp LBKT   &kp RBKT     &kp SEMI   &kp COLON  &kp BSLH  &trans
+                          &kp LEFT_ALT     &kp LEFT_WIN  &kp LEFT_SHIFT  &tog 1         &kp ENTER    &kp ENTER  &trans     &key_repeat  &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
