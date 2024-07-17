@@ -121,11 +121,21 @@
 
             display-name = "adjust";
             bindings = <
-&none  &none  &none  &none  &none  &none                  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none                  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none  &none
-              &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
+&none  &none              &none  &none  &none  &none                   &none   &none             &none  &none     &none  &none
+&none  &none              &none  &none  &none  &none                   &none   &kp LEFT_BRACKET  &none  &kp SEMI  &none  &none
+&none  &kp DOUBLE_QUOTES  &none  &none  &none  &none                   &none   &none             &none  &none     &none  &none
+&none  &none              &none  &none  &none  &none   &none    &none  &none   &none             &none  &none     &none  &none
+                          &none  &none  &none  &tog 0  &none    &none  &tog 0  &none             &none  &none
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
